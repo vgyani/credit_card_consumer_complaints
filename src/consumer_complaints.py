@@ -62,7 +62,7 @@ def data_filter(row, num_columns):
         return [year, clean_text(row[1]), clean_text(row[7])]
 
 
-def read_csv(file_path, file_encoding='utf-8'):
+def read_csv(file_path):
     """
     Reads the input csv file, parses it, filters bad data and returns a dictionary with all product, year,
     company and complaint count.
@@ -73,7 +73,7 @@ def read_csv(file_path, file_encoding='utf-8'):
     print('Input path: ', file_path)
     print('Reading input file...')
     data_dictionary = defaultdict(lambda: defaultdict(int))
-    with open(file_path, encoding=file_encoding) as csv_file:
+    with open(file_path) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',', quotechar='"')
         header_row = next(csv_reader)
         num_columns = len(header_row)
