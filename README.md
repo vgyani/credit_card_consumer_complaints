@@ -3,7 +3,7 @@ Insight Data Engineering Fellowship Coding Challenge April 2020
 
 
 # To run the script from command line, run the run.sh file with the following arguments
-  ./run.sh <input-file-name> <output-file-name>
+  ./run.sh input-file-name output-file-name
   
   example: ./run.sh complaints.csv report.csv
 
