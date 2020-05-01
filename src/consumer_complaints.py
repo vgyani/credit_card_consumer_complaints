@@ -122,7 +122,7 @@ def sort_write_csv(report_list, output_path):
     print('Output path: ', output_path)
     print('Writing output...')
     sorted_by_product_year = sorted(report_list, key=lambda x: (x[0], x[1]))
-    with open(output_path, "w", newline="") as output_file:
+    with open(output_path, "w") as output_file:
         writer = csv.writer(output_file)
         writer.writerows(sorted_by_product_year)
     print('Write complete!')
