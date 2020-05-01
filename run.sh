@@ -6,4 +6,4 @@
 ################################################################################
 
 # run the python script
-python ./src/consumer_complaints.py $1 $2
+python ./src/consumer_complaints.py complaints.csv report.csv
