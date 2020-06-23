@@ -12,29 +12,9 @@
 1. [Questions?](README.md#questions?)
 
 ## Problem
-The federal government provides a way for consumers to file complaints against companies regarding different financial products, such as payment problems with a credit card or debt collection tactics. This challenge will be about identifying the number of complaints filed and how they're spread across different companies. 
+The federal government provides a way for consumers to file complaints against companies regarding different financial products, such as payment problems with a credit card or debt collection tactics. This project is about identifying the number of complaints filed and how they're spread across different companies. 
 
-**For this challenge, we want to know for each financial product and year, the total number of complaints, number of companies receiving a complaint, and the highest percentage of complaints directed at a single company.
-
-## Steps to submit your solution
-
-* To submit your entry, use the link you received in your coding challenge invite email
-* Do NOT attach a file - we will not accept solutions with attached files
-* Do NOT send your solution over an email - We are unable to accept coding challenges that way
-* To see whether your code will pass at least one key test on our system (do this prior to submission), use this page: https://insight-cc-submission.com/test-my-repo-link and choose 'Consumer Complaints' in the challenge dropdown
-
-### Creating private repositories
-To avoid plagiarism and wrongdoing, we request you submit a private repository of your code, and then invite us to collaborate prior to submitting your solution. Both GitHub and Bitbucket offer free private repositories at no extra cost.
-* Create a private repository on GitHub or Bitbucket with the directory structure detailed [below](README.md#repo-directory-structure)
-* Add "insight-cc-bot" (or cc@insightdataengineering.com on Bitbucket) as a collaborator in your project
-  * [How to add collaborators on GitHub?](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/)
-  * [How to add users and groups as collaborators in Bitbucket?](https://confluence.atlassian.com/bitbucket/grant-repository-access-to-users-and-groups-221449716.html)
-* **We will NOT be grading submissions we do not have access to.**
-
-### Submitting a link to your repository
-* Provide a link to the specific repo for this project, not your general profile
-* Exactly follow the directory structure [detailed](README.md#repo-directory-structure) in this Readme, especially providing a 'run.sh' shell script that executes your code
-* Put any comments in the README file of your project repo
+**We want to know for each financial product and year, the total number of complaints, number of companies receiving a complaint, and the highest percentage of complaints directed at a single company.
 
 ## Input dataset
 For this challenge, when we grade your submission, an input file, `complaints.csv`, will be moved to the top-most `input` directory of your repository. Your code must read that input file, process it and write the results to an output file, `report.csv` that your code must place in the top-most `output` directory of your repository.
