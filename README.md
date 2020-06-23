@@ -78,18 +78,17 @@ The top-level directory structure for your repo should look like the following: 
     │   └── complaints.csv
     ├── output
     |   └── report.csv
-    ├── insight_testsuite
-        └── tests
-            └── test_1
-            |   ├── input
-            |   │   └── complaints.csv
-            |   |__ output
-            |   │   └── report.csv
-            ├── your-own-test_1
-                ├── input
-                │   └── complaints.csv
-                |── output
-                    └── report.csv
+    └── tests
+        └── test_1
+        |   ├── input
+        |   │   └── complaints.csv
+        |   |__ output
+        |   │   └── report.csv
+        ├── test_2
+            ├── input
+            │   └── complaints.csv
+            |── output
+                └── report.csv
 
 ## Assumptions/ Working:
 1) Any row with a problem in data quality will be skipped
