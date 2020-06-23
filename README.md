@@ -2,14 +2,11 @@
 
 ## Table of Contents
 1. [Problem](README.md#problem)
-1. [Steps to submit your solution](README.md#steps-to-submit-your-solution)
 1. [Input Dataset](README.md#input-dataset)
-1. [Expected output](README.md#expected-output)
+1. [Output](README.md#expected-output)
 1. [Instructions](README.md#instructions)
-1. [Tips on getting an interview](README.md#tips-on-getting-an-interview)
 1. [Repo directory structure](README.md#repo-directory-structure)
 1. [Testing your code](README.md#testing-your-code)
-1. [Questions?](README.md#questions?)
 
 ## Problem
 The federal government provides a way for consumers to file complaints against companies regarding different financial products, such as payment problems with a credit card or debt collection tactics. This project is about identifying the number of complaints filed and how they're spread across different companies. 
@@ -70,23 +67,6 @@ We designed this coding challenge to assess your coding skills, your understandi
 
 The objective here is to see if you can implement the solution using basic data structure building blocks and software engineering best practices (by writing clean, modular, and well-tested code).
 
-## Tips on getting an interview
-As a data engineer, it’s important that you write clean, well-documented code that scales for a large amount of data. For this reason, it’s important to ensure that your solution works well for a large number of records, rather than just the above example.
-
-[Here](http://files.consumerfinance.gov/ccdb/complaints.csv.zip) you can find a zipped, modest-sized dataset to test your code (see [here](https://cfpb.github.io/api/ccdb/fields.html) for more information on the data dictionary).
-
-Note, we will use this data to test the full functionality of your code, along with other test cases.
-
-It's important to use software engineering best practices like unit tests, especially because data is not always clean and predictable.
-
-Before submitting your solution you should summarize your approach and run instructions (if any) in your README.
-
-You may write your solution in any mainstream programming language, such as C, C++, Go, Java, Python, Ruby, or Scala. Once completed, submit a link of your Github or Bitbucket repo with your source code.
-
-In addition to the source code, the top-most directory of your repo must include the input and output directories, and a shell script named run.sh that compiles and runs the program(s) that implement(s) the required features.
-
-See the figure below for the required structure of the top-most directory in your repo, or simply clone this repo.
-
 ## Repo directory structure
 The top-level directory structure for your repo should look like the following: (So that we can grade your submission, replicate this directory structure at the top-most level of your project repository. Do not place the structure in a subdirectory)
 
@@ -110,8 +90,6 @@ The top-level directory structure for your repo should look like the following: 
                 │   └── complaints.csv
                 |── output
                     └── report.csv
-
-**Don't fork this repo** and don't use this `README` instead of your own. The content of `src` does not need to be a single file called `consumer_complaints.py`, which is only an example. Instead, you should include your own source files and give them expressive names.
 
 ## Testing your code
 As an engineer, you'll want to make sure you are thoroughly testing your code. Use the `insight_testsuite` directory to showcase the tests you conducted on your code. Under that directory, create a separate folder for each test. Each test directory should also have a separate `input` subdirectory containing the `complaint.csv` input file you want to test, and an `output` subdirectory containing the expected `report.csv` output for that test.
