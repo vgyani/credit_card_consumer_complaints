@@ -91,5 +91,5 @@ The top-level directory structure for your repo should look like the following: 
                 └── report.csv
 
 ## Assumptions/ Working:
-1) Any row with a problem in data quality will be skipped
+1) Any row with a problem in data quality is skipped
 2) Dates are expected to be in yyyy-mm-dd format
