@@ -44,7 +44,7 @@ In summary that means
 
 ** We want for each product and year that complaints were received, the total number of complaints, number of companies receiving a complaint and the highest percentage of complaints directed at a single company.
 
-For the purposes of this project, all names, including company and product, should be treated as case insensitive. For example, "Acme", "ACME", and "acme" would represent the same company.
+For the purposes of this project, all names, including company and product, have been treated as case insensitive. For example, "Acme", "ACME", and "acme" would represent the same company.
 
 ## Output
 
