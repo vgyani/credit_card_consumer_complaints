@@ -2,9 +2,9 @@
 
 ## Table of Contents
 1. [Problem](README.md#problem)
+1. [Instructions](README.md#instructions)
 1. [Input Dataset](README.md#input-dataset)
 1. [Output](README.md#expected-output)
-1. [Instructions](README.md#instructions)
 1. [Repo directory structure](README.md#repo-directory-structure)
 1. [Testing your code](README.md#testing-your-code)
 
